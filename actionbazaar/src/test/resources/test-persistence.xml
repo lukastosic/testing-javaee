@@ -10,6 +10,7 @@
             <property name="javax.persistence.schema-generation.database.action"
                       value="drop-and-create" />
             <property name="eclipselink.logging.level" value="FINEST" />
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
         </properties>
     </persistence-unit>
 </persistence>

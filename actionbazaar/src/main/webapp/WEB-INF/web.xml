@@ -22,9 +22,13 @@
     <welcome-file-list>
         <welcome-file>add_bid.jsf</welcome-file>
     </welcome-file-list>
+    <!-- 
     <data-source>
-        <name>java:global/jdbc/ActionBazaarDB</name>
-        <class-name>org.h2.jdbcx.JdbcDataSource</class-name>
-        <url>jdbc:h2:/tmp/actionbazaar-development-database</url>
+        <name>java:/jdbc/ActionBazaarDB</name>
+        <class-name>com.mysql.jdbc.jdbc2.optional.MysqlConnectionPoolDataSource</class-name>
+        <url>jdbc:mysql://10.4.1.218:3306/test</url>
+		<user>root</user>
+		<password>root</password>
     </data-source>
+     -->
 </web-app>
